@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+$fatFont: "Roboto", sans-serif;
+$slimFont: "Raleway", sans-serif;
+$logoFont: "Abril Fatface", cursive;
+
+$bgColor: #35363a;
+$firstGrey: #191f22;
+$secondGrey: #1d252b;
+$mainColor: linear-gradient(to top, #c2faf2 0%, #b7c8d1 100%);
+
+$particleSize: 20vmin;
+$animationDuration: 2s;
+$amount: 20;
+
+@mixin circle($WH, $RT) {
+  width: $WH;
+  height: $WH;
+  right: $RT;
+  top: $RT;
+}
+
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-transitions: true;
+$enable-print-styles: true;
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/root";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/card";
+@import "node_modules/bootstrap/scss/media";
+@import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/print";

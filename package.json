@@ -1,0 +1,46 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.5",
+    "bootstrap": "^4.5.2",
+    "hamburger-react": "^2.2.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-awesome-button": "^6.5.1",
+    "react-burger-menu": "^2.7.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-particles-js": "^3.3.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-spinkit": "^3.0.0",
+    "react-timeago": "^4.4.0",
+    "react-vertical-timeline-component": "^3.0.2"
+  },
+  "scripts": {
+    "dev": "./node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

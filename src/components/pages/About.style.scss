@@ -1,0 +1,28 @@
+@import "../../variables";
+.section {
+  padding: 0% 5%;
+}
+.about {
+  width: 50%;
+  text-align: center;
+  h1 {
+    user-select: none; /* Standard */
+    cursor: default;
+    font-size: 3em;
+    font-family: $logoFont;
+    text-align: left;
+    color: $secondGrey;
+    letter-spacing: 0.2em;
+  }
+  p {
+    user-select: none; /* Standard */
+    cursor: default;
+    font-family: $slimFont;
+    color: $secondGrey;
+    text-align: left;
+  }
+}
+
+.vertical-timeline-element-date {
+  color: $secondGrey;
+}

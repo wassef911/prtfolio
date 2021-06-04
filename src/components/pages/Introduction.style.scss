@@ -1,0 +1,39 @@
+@import "../../variables";
+
+.text {
+  user-select: none; /* Standard */
+  padding-left: 10%;
+  padding-top: 6%;
+  margin: 5%;
+}
+.black911 {
+  user-select: none; /* Standard */
+  letter-spacing: 5vmin;
+  display: block;
+  position: fixed;
+  cursor: default;
+  top: 11%;
+  left: 15%;
+  font-size: 50vmin;
+  font-family: $logoFont;
+  color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.425);
+  transition-duration: all 1s;
+}
+.name {
+  font-size: 4em;
+  font-family: $logoFont;
+  text-align: left;
+  color: $secondGrey;
+}
+.shortDescription {
+  font-size: 2em;
+  font-family: $slimFont;
+  color: $secondGrey;
+
+  text-align: left;
+}
+canvas {
+  display: block;
+  position: fixed;
+}

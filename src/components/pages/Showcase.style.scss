@@ -1,0 +1,74 @@
+@import "../../variables";
+
+.showcase {
+  h1 {
+    padding: 0% 9.5%;
+    user-select: none; /* Standard */
+    cursor: default;
+    font-family: $logoFont;
+    color: $secondGrey;
+    letter-spacing: 0.2em;
+    text-align: left;
+    font-size: 4em;
+  }
+}
+
+.circle {
+  position: fixed;
+  border-radius: 50%;
+  background: radial-gradient($secondGrey, transparent);
+  animation: ripple 15s infinite;
+}
+
+.small {
+  @include circle(100px, -500px);
+}
+
+.medium {
+  @include circle(300px, -150px);
+}
+
+.large {
+  @include circle(400px, -200px);
+}
+
+.xlarge {
+  @include circle(600px, -300px);
+}
+
+.xxlarge {
+  @include circle(750px, -375px);
+}
+
+.shade1 {
+  opacity: 0.5;
+}
+.shade2 {
+  opacity: 0.2;
+}
+
+.shade3 {
+  opacity: 0.4;
+}
+
+.shade4 {
+  opacity: 0.6;
+}
+
+.shade5 {
+  opacity: 0.8;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}

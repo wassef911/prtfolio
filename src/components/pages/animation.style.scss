@@ -1,0 +1,52 @@
+.underline {
+  &:after,
+  &:before {
+    content: attr(title);
+    position: fixed;
+    left: 15%;
+    top: 11%;
+  }
+
+  &:after {
+    opacity: 0.4;
+    animation: glitchBotom 1s linear infinite;
+    transition-timing-function: ease-in-out;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+
+  &:before {
+    opacity: 0.4;
+    animation: glitchTop 1s linear infinite;
+    transition-timing-function: ease-in-out;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+
+  @keyframes glitchBotom {
+    2%,
+    64% {
+      transform: translate(-2px, 0);
+    }
+    4%,
+    60% {
+      transform: translate(-2px, 0);
+    }
+    62% {
+      transform: translate(-27px, 5px) skew(31deg);
+    }
+  }
+}
+@keyframes glitchTop {
+  2%,
+  64% {
+    transform: translate(2px, -2px);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(18px, -1px) skew(-23deg);
+  }
+}
