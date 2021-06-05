@@ -3,7 +3,7 @@ import TimeAgo from "react-timeago";
 
 import "./Card.style.scss";
 
-function Card({ data }) {
+function ProjectsCard() {
   const { title, date, description, url } = data;
   return (
     <div
@@ -12,6 +12,7 @@ function Card({ data }) {
       style={{ width: "19rem", height: "18rem" }}
     >
       <div className="card-body">
+        <img class="card-img-top" src="..." alt="Card image cap" />
         <h5 className="card-title project-card-title">{title}</h5>
         <h6 className="card-subtitle mb-2 text-muted date">
           {" "}
@@ -25,4 +26,4 @@ function Card({ data }) {
   );
 }
 
-export default Card;
+export default ProjectsCard;

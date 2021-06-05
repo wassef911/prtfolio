@@ -2,6 +2,11 @@
 
 .project-card {
   user-select: none; /* Standard */
+  font-size: 0.9em;
+  img {
+    border-radius: 15px;
+    margin-bottom: 1em;
+  }
   hr {
     border: 0;
     height: 2px;
