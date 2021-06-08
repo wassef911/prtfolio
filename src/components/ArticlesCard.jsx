@@ -5,14 +5,13 @@ import Spinner from "./Spinner";
 import "./Card.style.scss";
 
 function ArticlesCard() {
-  const { isLoading, isError, data, error } = useFetchArticles();
-  console.log(data);
+  const { isLoading, data } = useFetchArticles();
   if (isLoading) return <Spinner />;
   return data.map((article) => (
     <div
       onClick={() => window.open(article.url, "_blank")}
       className="card project-card d-flex flex-column align-items-center m-5 "
-      style={{ width: "19rem", height: "18rem" }}
+      style={{ width: "19rem" }}
     >
       <div className="card-body">
         <img

@@ -4,8 +4,9 @@
   user-select: none; /* Standard */
   font-size: 0.9em;
   img {
-    border-radius: 15px;
+    border-radius: 5px;
     margin-bottom: 1em;
+    filter: grayscale(90%);
   }
   hr {
     border: 0;
@@ -20,14 +21,14 @@
   background-image: linear-gradient(100deg, $firstGrey 00%, $firstGrey 80%);
   color: white;
   transition: all 200ms ease-in-out;
-  box-shadow: -5px 7px 15px rgba(0, 0, 0, 0.527),
+  box-shadow: -5px 7px 15px rgba(0, 0, 0, 0.404),
     10px -3px 20px rgba(255, 255, 255, 0.459);
   .project-card-title {
     font-size: 2em;
     font-family: $fatFont;
   }
   &:hover {
-    transform: scale(0.99);
+    transform: scale(0.998);
     box-shadow: inset 0 0 40px rgba(247, 247, 247, 0.404);
     background: radial-gradient(ellipse at top, $firstGrey, transparent);
     color: black;

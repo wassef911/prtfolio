@@ -28,16 +28,17 @@ const projects = [
     url: "https://github.com/wassef911/Experimenting-NodeJS-Express",
   },
   {
-    title: "Portfolio-React",
-    description: "The source code for this website.",
-    date: "September 24, 2020",
-    url: "https://github.com/wassef911/prtf",
+    title: "MusicNewsletter-AWS",
+    description: "A full cloud architecture for an automated newsletter.",
+    date: "April 15, 2021",
+    url: "https://github.com/wassef911/MusicNewsletter-AWS",
   },
   {
-    title: "ChatAPP-Socket.io",
-    description: "A web app for creating chat rooms.",
-    date: "September 16, 2020",
-    url: "https://github.com/wassef911/ChatAPP-Socket.io",
+    title: "ObjectRecognition-tensorflowJS",
+    description:
+      "Client side object recognition done using tensorflow's coco-ssd Model.",
+    date: "January 16, 2021",
+    url: "https://github.com/wassef911/ObjectRecognition-tensorflowJS",
   },
 ];
 export default projects;

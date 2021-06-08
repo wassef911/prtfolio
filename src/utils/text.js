@@ -1,4 +1,3 @@
-import articles from "./articles";
 import projects from "./projects";
 
 import { MdLaptopMac } from "react-icons/md";
@@ -40,8 +39,6 @@ const TEXT = {
     ],
   },
   showcase: {
-    headers: ["Projects", "Articles"],
-    articles,
     projects,
   },
 };
